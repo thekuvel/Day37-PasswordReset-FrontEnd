@@ -20,7 +20,7 @@ function SetPassword(){
             alert("Password updated successfully");
             navigate("/login")
         }else{
-            alert("Error", res.msg);
+            alert(res.msg);
         }
     }
     
